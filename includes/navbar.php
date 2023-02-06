@@ -1,7 +1,8 @@
 <nav class="navbar navbar-dark p-0 fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="">
-       <img src="media/images/newLogo.svg" alt="logo.png" class="logo">
+    <a class="navbar-brand py-4" href="">
+       <!-- <img src="media/images/newLogo.svg" alt="logo.png" class="logo"> -->
+       EXCERSICE WITH PHP DEEP
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
       <span class="navbar-toggler-icon"></span>
