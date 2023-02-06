@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark p-0 fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand py-4" href="">
+    <a class="navbar-brand py-3 fs-2" href="">
        <!-- <img src="media/images/newLogo.svg" alt="logo.png" class="logo"> -->
        EXCERSICE WITH PHP DEEP
     </a>
