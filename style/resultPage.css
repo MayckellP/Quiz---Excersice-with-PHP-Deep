@@ -1,0 +1,291 @@
+/**-------------------------------------------------------------------- FONTS: SWANKY & SYNE -------------------------------------- */
+
+@import url("https://fonts.cdnfonts.com/css/swanky-and-moo-moo");
+@import url("https://fonts.cdnfonts.com/css/syne");
+body {
+  background-color: #e8d2a6;
+  width: 100%;
+}
+
+/**-------------------------------------------------------------------- START: NAVBAR */
+
+.logo {
+  width: 100px;
+}
+.navbar {
+  background-color: #5b6d79;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/**-------------------------------------------------------------------- END: NAVBAR */
+
+/**-------------------------------------------------------------------- START: INFO BODY */
+
+/*!--------------------------------------------------- START: RESULT - HEADER */
+.result-header {
+  background-image: url("../media/images/fondo3_vector.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 8vh;
+  height: 50vh;
+  display: flex;
+}
+.result-title {
+  width: 70%;
+}
+.result-title h2,
+h3 {
+  text-align: center;
+  margin: 3rem 0rem 5rem 0rem;
+  color: white;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 80%;
+  font-family: "Swanky and Moo Moo", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.result-title h3 {
+  margin-top: 5rem;
+  font-size: 100px;
+}
+.result-img {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-img img {
+  width: 350px;
+  padding-bottom: 2rem;
+}
+/*!--------------------------------------------------- END: RESULT - HEADER */
+
+/*!--------------------------------------------------- START: TABLE GENERAL */
+.result-table {
+  margin-top: 3rem;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+.text-thanks {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 3rem;
+}
+
+/*?--------------------------------- START: ACCORDION */
+.accordion {
+  width: 90%;
+  margin: auto;
+}
+
+.accordion-button {
+  color: white;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 60px;
+  background-color: #d15b5b;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #d31e1e;
+  text-decoration: none;
+}
+
+/*?--------------------------------- START: TABLE */
+.t-headerN,
+.t-headerQ,
+.t-headerA {
+  color: black;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
+.t-headerN,
+.t-campN {
+  width: 5%;
+}
+
+.t-headerQ,
+.t-campQ {
+  width: 65%;
+  text-align: center;
+}
+.t-campQ {
+  text-align: left;
+}
+
+.t-headerA,
+.t-campA {
+  width: 30%;
+  text-align: center;
+}
+
+.t-campN,
+.t-campQ,
+.t-campA {
+  margin: auto;
+  color: black;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 60px;
+  background-color: rgba(255, 255, 255, 0.295);
+}
+/*!--------------------------------------------------- END: TABLE GENERAL */
+
+/**-------------------------------------------------------------------- START: FOOTER */
+.button {
+  width: 98%;
+  text-align: end;
+}
+.btn {
+  background-color: #e96868;
+  border: 1px solid #d31e1e;
+  width: 200px;
+  color: white;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn:hover {
+  background-color: #d15b5b;
+  color: white;
+}
+/**-------------------------------------------------------------------- END: FOOTER */
+
+/*!--------------------------------------------------------------------------------------------- START: MEDIA QUERIES 1000 - 1500*/
+@media (max-width: 1500px) {
+  .result-title {
+    width: 60%;
+  }
+  .result-title h2 {
+    font-size: 100px;
+  }
+  .result-title h3 {
+    font-size: 75px;
+  }
+  .result-img {
+    width: 40%;
+  }
+}
+/*!--------------------------------------------------------------------------------------------- START: MEDIA QUERIES 750 - 1000*/
+
+@media (max-width: 1000px) {
+  .result-header {
+    margin-top: 4vh;
+  }
+  .result-title {
+    width: 60%;
+  }
+  .result-title h2 {
+    font-size: 80px;
+  }
+  .result-title h3 {
+    font-size: 50px;
+  }
+  .result-img {
+    width: 40%;
+  }
+  .result-img img {
+    width: 80%;
+  }
+  .text-thanks {
+    font-size: 45px;
+  }
+}
+
+/*!--------------------------------------------------------------------------------------------- START: MEDIA QUERIES 0 - 750*/
+
+@media (max-width: 750px) {
+  .logo {
+    width: 50px;
+  }
+
+  .result-header {
+    margin-top: 5vh;
+    height: 35vh;
+    align-items: center;
+  }
+  .result-title {
+    width: 55%;
+  }
+  .result-title h2 {
+    margin-top: 2rem;
+    font-size: 50px;
+  }
+  .result-title h3 {
+    text-align: start;
+    margin: 2rem 0rem 0rem 1rem;
+    font-size: 30px;
+  }
+  .result-img {
+    width: 45%;
+  }
+  .text-thanks {
+    font-size: 20px;
+  }
+  .accordion {
+    width: 98%;
+  }
+  .accordion-button {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .t-headerN,
+  .t-headerQ,
+  .t-headerA {
+    color: black;
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+  }
+
+  .t-headerN,
+  .t-campN {
+    width: 3%;
+  }
+
+  .t-headerQ,
+  .t-campQ {
+    width: 67%;
+    text-align: center;
+  }
+  .t-campQ {
+    text-align: left;
+  }
+
+  .t-headerA,
+  .t-campA {
+    width: 15%;
+    text-align: center;
+  }
+
+  .t-campN,
+  .t-campQ,
+  .t-campA {
+    margin: auto;
+    color: black;
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: rgba(255, 255, 255, 0.295);
+  }
+
+  .button .btn {
+    width: 125px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
